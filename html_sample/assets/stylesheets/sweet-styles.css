@@ -1,0 +1,73 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+/* Change what a link should look like when hovered over with the mouse */
+ a:hover {
+    color: red !important;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+/* Change what a link should look like when its been visited */
+ a:visited {
+    color: blue;
+    text-decoration: none;
+}
+/* target all <div> and <h1> tags on the page and make their text blue */
+  div, h1 {
+    color: blue;
+  }
+
+div  h1 {
+    color:pink;
+    background-color: orange;
+}
+
+.myClass {
+    color: green;
+    background-image: url("https://ayegel-dev.nyc3.digitaloceanspaces.com/cropped-Untitled.png");
+    height: 100vh;
+    width: 50vw;
+    
+}    
+   
+#myID {
+    color: yellow;
+}    
+
+h1 {
+    height: 200px;
+     background-color: black;
+     color: red;
+    }
+h2 {
+    height: 200px;
+     background-color: purple;
+     color: green;
+    }
+h3 {
+    height: 200px;
+     background-color: orange;
+     color: blue;
+    }
+    
+.marginExample {
+    background-color: darkred;
+    margin: 30px;
+    padding: 30px;
+    border: 10px green solid;
+}    
+  
+.marginExample h1 {
+    color: black;
+    background-color: white
+}        
+              
+ 
+    
+    
+    
